@@ -1,6 +1,6 @@
-package com.lorenzosprenger.Lstock.repositories;
+package com.lorenzosprenger.lstock.repositories;
 
-import com.lorenzosprenger.Lstock.entities.Product;
+import com.lorenzosprenger.lstock.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package com.lorenzosprenger.Lstock;
+package com.lorenzosprenger.lstock;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

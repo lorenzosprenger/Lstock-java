@@ -1,4 +1,4 @@
-package com.lorenzosprenger.Lstock.entities;
+package com.lorenzosprenger.lstock.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

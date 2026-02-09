@@ -1,7 +1,7 @@
-package com.lorenzosprenger.Lstock.controllers;
+package com.lorenzosprenger.lstock.controllers;
 
-import com.lorenzosprenger.Lstock.entities.Product;
-import com.lorenzosprenger.Lstock.repositories.ProductRepository;
+import com.lorenzosprenger.lstock.entities.Product;
+import com.lorenzosprenger.lstock.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
