@@ -14,7 +14,7 @@ Projeto de estudo desenvolvido em Java e Spring Boot para prática de criação 
 - Cadastro de produtos
 - Listagem paginada
 - Consulta por ID
-- Seed de dados automático
+- Carga inicial de dados via import.sql
 
 ## Passo a passo
 
@@ -156,3 +156,45 @@ public class ProductController {
     }
 }
 ```
+
+## Como executar o projeto
+
+1. Clonar o repositório:
+
+git clone https://github.com/lorenzosprenger/Lstock-java
+
+2. Abrir o projeto em uma IDE (IntelliJ, Eclipse ou VS Code)
+
+3. Executar a classe:
+
+LstockApplication
+
+4. A aplicação ficará disponível em:
+
+http://localhost:8080
+
+5. Console do banco H2:
+
+http://localhost:8080/h2-console
+
+6. Endpoint principal:
+
+GET /products?page=0&size=5&sort=name
+
+## Demonstrações
+
+### Console H2 com produtos cadastrados
+
+Tela do banco de dados H2 exibindo os registros da tabela `tb_product` após o seed automático.
+
+![H2](images/h2-console.png)
+
+### Consulta de produtos via Postman
+
+Requisição GET utilizando paginação e ordenação:
+
+GET /products?page=0&size=5&sort=name
+
+Retorna os 5 primeiros produtos ordenados alfabeticamente pelo nome.
+
+![Postman](images/postman-products.png)
