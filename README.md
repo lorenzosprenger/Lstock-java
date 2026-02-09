@@ -1,51 +1,22 @@
-# Aula: Introdução API web com Java e Spring
-> 🎓Prof. Dr. Nelio Alves - mais de 500 mil alunos impactados
+# Lstock - Sistema de Controle de Produtos (API REST)
 
-## Para quem é esta aula
+Projeto de estudo desenvolvido em Java e Spring Boot para prática de criação de API REST, mapeamento de entidades com JPA, persistência de dados e paginação de resultados, simulando um sistema básico de controle de produtos.
 
-- Estudantes de programação há pelo menos 1 ano.
-- Profissionais em início de carreira.
-- Profissionais com mais tempo de carreira que desejam se atualizar ou migrar de tecnologia.
+## Tecnologias Utilizadas
+- Java
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+- Git
 
-## Pré-requisitos para esta aula
+## Funcionalidades
+- Cadastro de produtos
+- Listagem paginada
+- Consulta por ID
+- Seed de dados automático
 
-- Conhecimento básico de:
-    - Lógica e OO em qualquer linguagem
-    - Git e Github
-    - SQL
-
-## Caso queira reproduzir o projeto, instale no seu computador
-
-- Java JDK + IDE. Sugestões:
-    - [Java JDK Zulu](https://www.azul.com/downloads) e [Intellij Community](https://www.jetbrains.com/idea/download)
-    - [Spring Tools for Eclipse](https://spring.io/tools) (já vem com JDK embutido)
-- [Git](https://git-scm.com/downloads) e [Github](https://github.com)
-- [Postman](https://www.postman.com/downloads)
-
-## O que você vai aprender nesta aula
-
-- Criar projeto Spring Boot
-- Configurar banco de dados H2
-- Criar classe de domínio (entidade) com ORM da JPA
-- Realizar seed da base de dados
-- Recuperar dados com paginação
-
-
-## Saiba mais sobre nossas formações completas
-
-- Sobre Frameworks
-
-    - [**Coleção Java Spring (backend)**](https://devsuperior.com.br/colecao-java-spring) - Seja um profissional backend com Java e Spring
-
-    - [**ReactJS Professional (frontend)**](https://devsuperior.com.br/curso-reactjs-professional) - Seja um profissional frontend com Javascript/TypeScript e ReactJS
-
-- Sobre Fundamentos
-
-    - [**Banco de Dados e SQL Expert**](https://devsuperior.com.br/curso-banco-de-dados-e-sql-expert) - Domine os fundamentos de banco de dados e SQL e adquira a base sólida para atuar profissionalmente na área
-
-    - [**Estruturas de Dados e Algoritmos Expert**](https://devsuperior.com.br/curso-estruturas-de-dados-e-algoritmos-expert) - Aprenda as estruturas de dados e técnicas avançadas, e tenha o perfil mais valorizado do mercado
-
-## Passo a passo da aula
+## Passo a passo
 
 ### 1. Criar projeto com Spring Initializr
 
