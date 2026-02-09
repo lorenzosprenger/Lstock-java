@@ -42,7 +42,7 @@ spring.h2.console.path=/h2-console
 ### 3. Criar classe de domínio (entidade) com ORM da JPA
 
 ```java
-package com.devsuperior.dsstock.entities;
+package com.lorenzosprenger.lstock.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -118,9 +118,9 @@ INSERT INTO tb_product (id, name, price, quantity) VALUES ('f9c1d2e3-4a5b-46c7-9
 **ProductRepository.java**
 
 ```java
-package com.devsuperior.dsstock.repositories;
+package com.lorenzosprenger.lstock.repositories;
 
-import com.devsuperior.dsstock.entities.Product;
+import com.lorenzosprenger.lstock.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
@@ -132,10 +132,10 @@ public interface ProductRepository extends JpaRepository<Product, UUID> {
 **ProductController.java**
 
 ```java
-package com.devsuperior.dsstock.controllers;
+package com.lorenzosprenger.lstock.controllers;
 
-import com.devsuperior.dsstock.entities.Product;
-import com.devsuperior.dsstock.repositories.ProductRepository;
+import com.lorenzosprenger.lstock.entities.Product;
+import com.lorenzosprenger.lstock.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
